@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/kb/', // 仓库名
   title: "KB",
   description: "A KB Site",
   themeConfig: {
